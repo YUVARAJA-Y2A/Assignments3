@@ -1,0 +1,10 @@
+.button-options {
+  background-color: #f1f5f8;
+  border: white;
+}
+.button-options:active:focus {
+  color: #2caeba;
+}
+.div-tabs-main {
+  background-color: #f1f5f8;
+}

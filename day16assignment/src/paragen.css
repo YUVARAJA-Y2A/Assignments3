@@ -1,0 +1,30 @@
+.title {
+  color: #063251;
+  font-weight: bolder;
+}
+.p-para {
+  margin-top: auto;
+  margin-bottom: auto;
+  color: #063251;
+  font-size: larger;
+  font-weight: 400;
+}
+.input-number {
+  width: 5%;
+  margin-left: 1%;
+  border: white;
+}
+.gen-button {
+  margin-left: 1ch;
+  background-color: #49a6e9;
+  border: #49a6e9;
+  border-radius: 4px;
+}
+.text-content {
+  color: #617db1;
+  text-align: center;
+  padding-left: 25%;
+  padding-right: 25%;
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,52 @@
+img {
+  height: 150px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 100%;
+  border: 5px solid #bcccdc;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
+.footer-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.div-quote {
+  text-align: center;
+  color: #617d98;
+}
+.div-name {
+  color: #ba5d2c;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.div-title {
+  text-transform: capitalize;
+  color: #324d67;
+}
+.sldrmain {
+  margin-left: 18%;
+  margin-right: 18%;
+}
+.btnprev,
+.btnnext {
+  border-radius: 3px;
+  background-color: #617d98;
+}
+.btnprev:hover,
+.btnnext:hover {
+  background-color: #ba5d2c;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.quotemark {
+  display: flex;
+  justify-content: center;
+}

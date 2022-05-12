@@ -1,0 +1,55 @@
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+}
+.div-name,
+.div-job,
+.div-text {
+  text-align: center;
+}
+.div-text {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #617d98;
+}
+.div-name {
+  color: #102a42;
+  font-weight: bold;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+.div-job {
+  color: #49aeef;
+  text-transform: uppercase;
+}
+.div-revs {
+  background-color: white;
+  margin-left: 27%;
+  margin-right: 27%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.123) 0px 5px 15px;
+}
+.bt-prev,
+.bt-next {
+  background-color: white;
+  border: white;
+  color: #49afefab;
+}
+.bt-prev:hover,
+.bt-next:hover {
+  color: #49afef;
+}
+.bt-surpriseme {
+  background-color: #ebf7ff;
+  border: white;
+  color: #49a6ed;
+  font-size: 14px;
+}
