@@ -3,15 +3,14 @@ import text from "./text";
 import "./paragen.css";
 
 function Paragen() {
-  const [index, setIndex] = useState();
   const [input, setInput] = useState();
-  const [text, setText] = useState([]);
+  const [data] = useState(text);
+  const [sliceval, setsliceval] = useState();
   const handleChange = (e) => {
     setInput(e.target.value);
   };
   const handleParagraph = () => {
-    setIndex(input);
-    setText(text.slice(0, input));
+    input <= 0 ? setsliceval(0) : setsliceval(input);
   };
   return (
     <div>
@@ -32,8 +31,8 @@ function Paragen() {
       </div>
 
       <div class="text-content pt-3">
-        {text.map((item, index) => {
-          <p key={index}>{item}</p>;
+        {data.slice(0, sliceval).map((item, index) => {
+          return <p key={index}>{item}</p>;
         })}
       </div>
     </div>
