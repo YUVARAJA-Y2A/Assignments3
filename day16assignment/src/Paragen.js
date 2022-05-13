@@ -5,12 +5,13 @@ import "./paragen.css";
 function Paragen() {
   const [input, setInput] = useState();
   const [data] = useState(text);
-  const [sliceval, setsliceval] = useState();
+  const [sliceval, setsliceval] = useState(0);
   const handleChange = (e) => {
     setInput(e.target.value);
   };
   const handleParagraph = () => {
-    input <= 0 ? setsliceval(0) : setsliceval(input);
+    input <= 0 || input === undefined ? setsliceval(0) : setsliceval(input);
+    console.log(input);
   };
   return (
     <div>
